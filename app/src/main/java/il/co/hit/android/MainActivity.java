@@ -2,6 +2,8 @@ package il.co.hit.android;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import static il.co.hit.android.Config.MAIN_EXTRA_USERNAME;
+
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -12,6 +14,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private SharedPreferences sharedPref;
+    private TextView tv_username;
+    String sp_username;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         sharedPref = getSharedPreferences(Config.TASK2_PERFERENCES, Context.MODE_PRIVATE);
-        String sp_username = sharedPref.getString("Username", null);
+        sp_username = sharedPref.getString("Username", null);
 
         // If not logged in, move to login intent
         if(!checkLogin(sp_username)) {
@@ -27,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
             moveToLogin();
         }
 
-        TextView username = findViewById(R.id.tv_username);
-        username.setText(String.format("Hello, %s!", sp_username));
+        tv_username = findViewById(R.id.tv_username);
+        tv_username.setText(String.format("Hello, %s!", sp_username));
     }
 
     private boolean checkLogin(String username) {
@@ -44,5 +48,11 @@ public class MainActivity extends AppCompatActivity {
         Intent loginIntent = new Intent(this, LoginActivity.class);
         startActivity(loginIntent);
         finish();
+    }
+
+    public void moveToProfile(View view) {
+        Intent profileIntent = new Intent(this, ProfileActivity.class);
+        profileIntent.putExtra(MAIN_EXTRA_USERNAME, sp_username);
+        startActivity(profileIntent);
     }
 }

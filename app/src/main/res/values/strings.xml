@@ -8,4 +8,11 @@
     <string name="login_screen_header">ScreenzMedia - Login</string>
     <string name="main_screen_header">ScreenzMedia - Main</string>
     <string name="btn_logout">Logout</string>
+    <string name="btn_profile">Profile</string>
+    <string name="btn_add_to_contacts">Add To Contacts</string>
+    <string name="et_fullname_placeholder">Full Name</string>
+    <string name="et_phone_placeholder">972-12-3456789</string>
+    <string name="et_date_placeholder">Birthday: dd/mm/yy</string>
+    <string name="btn_add_to_calendar">Add to Calendar</string>
+    <string name="et_time_placeholder">23:59</string>
 </resources>
