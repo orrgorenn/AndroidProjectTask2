@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Task2</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="welcome_message">Welcome to ScreenzMedia - To continue, please login below</string>
+    <string name="username_placeholder">Username</string>
+    <string name="password_placeholder">Password</string>
+</resources>
