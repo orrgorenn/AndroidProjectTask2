@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Task2</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="welcome_message">Welcome to ScreenzMedia - To continue, please login below</string>
+    <string name="username_placeholder">Username</string>
+    <string name="password_placeholder">Password</string>
+    <string name="login_screen_header">ScreenzMedia - Login</string>
+    <string name="main_screen_header">ScreenzMedia - Main</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_profile">Profile</string>
+    <string name="btn_add_to_contacts">Add To Contacts</string>
+    <string name="et_fullname_placeholder">Full Name</string>
+    <string name="et_phone_placeholder">972-12-3456789</string>
+    <string name="btn_set_time">Set time</string>
+    <string name="et_time_placeholder">23:59</string>
+    <string name="btn_set_alarm">Set Alarm</string>
+    <string name="btn_browser">Browser</string>
+    <string name="et_website_placeholder">http://www.google.co.il</string>
+    <string name="login_creds">Auth was made. correct Username: hit, correct Password: 123. Enjoy.</string>
+    <string name="btn_call">CALL (ACTION_CALL)</string>
+    <string name="btn_contacts">Contacts (ACTION_VIEW)</string>
+    <string name="btn_share">Share (ACTION_SEND)</string>
+    <string name="et_share_text">Some Text To Share...</string>
+    <string name="browser_header">Browser Screen</string>
+    <string name="profile_header">Profile Screen</string>
+</resources>

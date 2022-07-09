@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">משימה 2</string>
+    <string name="btn_login">התחברות</string>
+    <string name="btn_register">הרשמה</string>
+    <string name="welcome_message">ברוכים הבאים לאפליקציה, להמשך התחברו מטה</string>
+    <string name="username_placeholder">שם משתמש</string>
+    <string name="password_placeholder">סיסמה</string>
+    <string name="login_screen_header">משימה 2 - התחברות</string>
+    <string name="main_screen_header">משימה 2 - ראשי</string>
+    <string name="btn_logout">התנתקות</string>
+    <string name="btn_profile">פרופיל</string>
+    <string name="btn_add_to_contacts">הוסף לאנשי קשר</string>
+    <string name="et_fullname_placeholder">שם מלא</string>
+    <string name="et_phone_placeholder">972-12-3456789</string>
+    <string name="btn_set_time">בחר זמן</string>
+    <string name="et_time_placeholder">23:59</string>
+    <string name="btn_set_alarm">קבע שעון מעורר</string>
+    <string name="btn_browser">דפדפן</string>
+    <string name="et_website_placeholder">http://www.google.co.il</string>
+    <string name="login_creds">בוצע אימות לנתונים מעלה. שם משתמש ברירת מחדל: hit, סיסמה: 123, תהנה.</string>
+    <string name="btn_call">חייג (ACTION_CALL)</string>
+    <string name="btn_contacts">אנשי קשר (ACTION_VIEW)</string>
+    <string name="btn_share">שתף (ACTION_SEND)</string>
+    <string name="et_share_text">טקסט לבחירתך...</string>
+    <string name="browser_header">מסך הדפדפן</string>
+    <string name="profile_header">מסך הפרופיל</string>
+</resources>
